@@ -1,0 +1,216 @@
+
+body {
+    margin: 0;
+    font-family: 'Prata', 'sans-serif';
+    font-size: 25px;
+    line-height: 30px;
+
+
+}
+
+
+*,
+*:before;
+*:after;{
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+
+    margin: 0;
+}
+
+
+p{
+    margin: 0 0 10px;
+}
+
+
+.container{
+    width: 100%;
+    max-height: 1000px;
+    margin: 0 auto;
+
+
+}
+
+
+/*Page==============================================*/
+
+.page{
+        width: 100%;
+        height: 100vh;
+        background: #000 url("../img/bg.jpg") center no-repeat;
+        background-size: cover;
+
+}
+
+
+
+/*Header=============================================*/
+
+.header{
+
+    background: none;
+
+}
+
+
+.header-nav{
+
+    display: flex;
+
+}
+
+
+.header-nav-link{
+    margin-right: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-weight: 400;
+    text-decoration: none;
+    transition: color .5s liner;
+
+}
+
+
+.header-nav-link:hover{
+    color: #586A75;
+}
+
+
+
+.header-inner{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-brand{
+
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+
+.header-nav-logo {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: none;
+    text-decoration: none;
+}
+
+
+/* Content=================================*/
+
+.content-block{
+    display: block;
+}
+
+.block{
+
+    margin: 150px 0 0 100px;
+    color: none;
+
+
+}
+
+
+.title{
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Prata';
+    font-weight: 400;
+    text-decoration: none;
+
+
+}
+.title2{
+    margin: 30px 0 0 0;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Prata';
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.content-flex{
+    display: flex;
+}
+
+.sidebar{
+
+    width: 20%;
+
+}
+.main{
+
+    width: 80%;
+    margin: 70px 0 0 0;
+}
+
+
+.block-text{
+    margin: 50px 0 0 100px;
+    color: none;
+}
+
+
+
+.text{
+    margin: 0 0 10px 0;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-weight: 300;
+    text-decoration: none;
+
+
+}
+
+.text2{
+    margin: 10px 0 0 0;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Rubik';
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+
+.arrow{
+    margin: 10px 0 0 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
